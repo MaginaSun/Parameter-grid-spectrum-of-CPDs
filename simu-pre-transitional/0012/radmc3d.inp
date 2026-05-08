@@ -1,0 +1,7 @@
+nphot = 500000
+nphot_spec = 30000
+scattering_mode_max = 0
+iranfreqmode = 1
+istar_sphere = 1
+setthreads = 24
+modified_random_walk = 1
