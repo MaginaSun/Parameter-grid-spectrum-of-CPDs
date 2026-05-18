@@ -1,6 +1,6 @@
 # Parametric CPD Models -- Spectral Data Repository
 
-This repository contains spectral data generated from parametric circumplanetary disk (CPD) models using the radiative transfer code [RADMC-3D](https://www.ita.uni-heidelberg.de/~dullemond/software/radmc-3d/?utm_source=chatgpt.com).
+This repository contains spectral data generated from parametric circumplanetary disk (CPD) models using the radiative transfer code [RADMC-3D](https://github.com/dullemond/radmc3d-2.0).
 
 At the current stage, only the subset of models used in the associated paper has been uploaded. The complete parameter grid will be added progressively in future updates.
 
