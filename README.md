@@ -31,12 +31,13 @@ Parameter Effects in Circumplanetary Disk Spectra and Prospects for Spectral Fit
 Additional Notes
 
 * The radmc3d.out files are placeholders. During the original simulations, the standard terminal output of RADMC-3D was not redirected to log files and is therefore unavailable.
-* The fitting model for YSES-1 b includes an additional population of optically thin silicate grains inside the cavity to reproduce the observed silicate emission feature. These grains are not part of the main DSHARP dust component and are therefore not included in the parameter table presented in the paper.
+
 
 Future Updates
 
 Future releases will include:
 
+* the data of spectral fitting (Fig.6 of the related paper),
 * the complete parameter grid,
 * additional model visualizations (e.g., surface density and temperature structures),
 * and other products that may facilitate the interpretation and fitting of circumplanetary disk spectra.
