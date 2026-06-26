@@ -1,35 +1,46 @@
-# Parametric CPD Models -- Spectral Data Repository
+Parametric CPD Models – Spectral Data Repository
 
-This repository contains spectral data generated from parametric circumplanetary disk (CPD) models using the radiative transfer code [RADMC-3D](https://github.com/dullemond/radmc3d-2.0).
+This repository contains spectral data generated from parametric circumplanetary disk (CPD) models using the radiative transfer code RADMC-3D.
 
-At the current stage, only the subset of models used in the associated paper has been uploaded. The complete parameter grid will be added progressively in future updates.
+The models were developed for the systematic exploration of infrared spectra from circumplanetary disks and their application to spectral fitting. At the current stage, only the subset of models presented in the associated paper has been uploaded. The complete parameter grid will be added progressively in future updates.
 
-## Repository Contents
+Repository Contents
 
-Each model directory contains:
+Each numbered directory (0001, 0002, …) corresponds to one model from the parameter grid used in the paper. Each directory contains:
 
-- Spectral data produced from the RADMC-3D simulations
-- The corresponding RADMC-3D input/setup files required to reproduce the simulations
+* The synthetic spectrum produced with RADMC-3D.
+* The corresponding RADMC-3D input files required to reproduce the simulation.
 
-Therefore, users may also rerun the same models with RADMC-3D to generate spectra with different numerical settings or spectral resolutions, depending on their scientific needs.
+Users may therefore rerun the same model with different numerical settings (e.g., wavelength sampling or photon statistics) to generate spectra with different accuracies or spectral resolutions.
 
-## Plotting the Spectra
+Plotting the Spectra
 
 The repository includes a Jupyter notebook:
 
 Plot_spectrum.ipynb
 
-This notebook can be used directly to reproduce the spectral comparison figures presented in the paper.
+which reproduces the spectral comparison figures presented in the paper directly from the uploaded data.
 
-## Related Paper
+Related Paper
 
-The associated paper link will be added here after acceptance:
+Parameter Effects in Circumplanetary Disk Spectra and Prospects for Spectral Fitting
 
-* arXiv: [to be added]
-* DOI: [to be added after publication]
+* arXiv: https://arxiv.org/abs/2606.08996
+* DOI: to be added after publication
 
-## Notes
+Additional Notes
 
-These models are intended for studies of infrared spectral properties of circumplanetary disks and related spectral fitting applications.
+* The radmc3d.out files are placeholders. During the original simulations, the standard terminal output of RADMC-3D was not redirected to log files and is therefore unavailable.
+* The fitting model for YSES-1 b includes an additional population of optically thin silicate grains inside the cavity to reproduce the observed silicate emission feature. These grains are not part of the main DSHARP dust component and are therefore not included in the parameter table presented in the paper.
 
-If you use these data in your work, please cite the associated paper once available.
+Future Updates
+
+Future releases will include:
+
+* the complete parameter grid,
+* additional model visualizations (e.g., surface density and temperature structures),
+* and other products that may facilitate the interpretation and fitting of circumplanetary disk spectra.
+
+Citation
+
+If you use these models or spectra in your work, please cite the associated paper.
